@@ -1,0 +1,67 @@
+.mainTitle {
+  font-size: 100px;
+}
+
+.container {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+
+.selectTitle {
+  text-align: center;
+}
+.desc{
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  gap: 45px;
+}
+
+.item {
+  border: 5px solid #bbb;
+  border-radius: 5px;
+  width: 320px;
+  height: 400px;
+  position: relative;
+  background-size: cover !important;
+  transition: .5s all ease;
+}
+.item:hover{
+  transform: scale(1.1);
+}
+
+.item:nth-child(1) {
+  background: url("/studio.jpg");
+}
+.item:nth-child(2) {
+  background: url("/walk.jpg");
+}
+.item:nth-child(3) {
+  background: url("/wending.jpg");
+}
+.item:nth-child(4) {
+  background: url("/kids.jpg");
+}
+
+.title {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 36px;
+  font-weight: bold;
+  transition: .2s all ease;
+
+}
+
+.item:hover .title {
+  color: #FBCA1F;
+}
+.btn{    
+  display: flex;
+  justify-content: center;
+}

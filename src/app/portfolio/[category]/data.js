@@ -1,0 +1,126 @@
+export const items = {
+
+  studio: [
+    {
+      id: 1,
+      title: "Съемка с искуственным светом",
+      desc: "На сьемке мы можем задать светом любое настроение. Цветной свет может быть как мягким пастельных оттенков, так насыщенным и контрастным в зависимости от идеи и стиля съемки",
+      image: "https://sun9-5.userapi.com/impg/AW2Y8lg0KXQOTXE5a94rZnisTkr7nKvY4_ZaPw/x2aeHJ4sMXM.jpg?size=1440x2160&quality=95&sign=4d3152d75e7f2e9420e504c45c0b3ceb&type=album",
+      image2: "https://sun9-27.userapi.com/impg/CFKM6A4BwjpIj9hQ-9Te1o3xqH6T06wJpnswmg/ZbK6Ilr_8wI.jpg?size=1440x2160&quality=95&sign=1e8ee55449a086d93381a4f3d3734cff&type=album",
+      image3: "https://sun9-19.userapi.com/impg/PvHwRoVqTNgk4IcmtpVa92WgW-FKAi54Uq5ECg/W2L1Z0g7d5g.jpg?size=1440x2160&quality=95&sign=89350b8e9df88cea57ee0be55011ef1d&type=album",
+      width: 200,
+      height: 300,
+      album: "https://vk.com/album-212827676_285487448",
+
+    },
+    {
+      id: 2,
+      title: "Реквизит",
+      desc: "Мы можем устроить фотосессию с любым реквизитом, помогу подготовить и найти все воплощения вашей идеи",
+      image:
+        "https://sun9-4.userapi.com/impg/QsceQWdLvxnichRN_EIKbKl2C_zLEM7Smb9T7A/cU9ZInRiXo0.jpg?size=1440x2160&quality=95&sign=59423b9642cf9e3ad4b0fe06f9cece39&type=album",
+      image2: "https://sun9-41.userapi.com/impg/cF56axRMK-kl_nC-8HNYIqxP3X3N2E-G5QTgEg/J4VyQhi-lgA.jpg?size=1440x2160&quality=95&sign=237c09892e4b25d95b1330e037ae9e0a&type=album",
+      image3: "https://sun9-5.userapi.com/impg/bKouSJnpc4NofE209Yv-hO48xvEPYE4NwSmsmQ/Yn6E2MCEntY.jpg?size=1440x2160&quality=95&sign=d9214862794dfa085f880efe15cec9b4&type=album",
+      width: 200,
+      height: 300,
+      album: "https://vk.com/album-212827676_285486880",
+    },
+    {
+      id: 3,
+      title: "Что надеть?",
+      desc: "Если вы ломаете голову над образом, я помогу подобрать наряд из вашего гардероба, либо найти варианты аренды одежды для съемок. Подберем вместе подходящий образ под вашу фотосессию",
+      image:
+        "https://sun9-19.userapi.com/impg/J_mBcSxHUBA3cYybHwhhNOkeRq3ZSoCJNqpBVw/Zo5Inq2oQ4g.jpg?size=1440x2160&quality=95&sign=2ba77bf16acb033fe3220d299aa69b4a&type=album",
+      image2: "https://sun9-27.userapi.com/impg/yHbomGpb4PaaogzrFT7O7l8kT7xEasSnYNIhVA/Hu4-9u15Jtk.jpg?size=1440x2160&quality=95&sign=17afec1c26244b535f11c1caa656e9c0&type=album",
+      image3: "https://sun9-18.userapi.com/impg/ouSMTak7KfB7jTacboZ-IdGGRkLlg7YYZgT7Ow/ggddkA50WiE.jpg?size=1440x2160&quality=95&sign=efff1d75404907f0932b228879fb97cf&type=album",
+      width: 200,
+      height: 300,
+      album: "https://vk.com/album-212827676_289695543",
+    }
+  ],
+  walk: [
+    {
+      id: 1,
+      title: "Пройтись по городу",
+      desc: "Мы живем в очень красивом городе, я знаю много красивых улиц, парков и модных двориков, с удовольствием схожу с вами на фотопрогулку",
+      image: "https://sun9-36.userapi.com/impg/ADGrTbxCIpkcb9HGWAQmwnI-TkcDxmScxa_KuQ/ZsJzWWbJ4_o.jpg?size=1440x2160&quality=95&sign=09250f0581cac348f16a09d88f3350ad&type=album",
+      image2: "https://sun9-17.userapi.com/impg/3Gqw1BFuu4SmcxDtButG6IcoCoUjrjjVzNV2IQ/bQhoYdMI7VM.jpg?size=1440x2160&quality=95&sign=64e30cfedb738be1e58cd935e8f43414&type=album",
+      image3: "https://sun9-24.userapi.com/impg/OEoKlQV7X54Ga_AzpEPuwd2kICg_9G5SJ5CTFg/TWl_icIK04g.jpg?size=1440x2160&quality=95&sign=1fe09d74f3855a885be2f82b3e0cb8d3&type=album",
+      album: "https://vk.com/album-212827676_285957166",
+      width: 200,
+      height: 300,
+    },
+    {
+      id: 2,
+      title: "Любое время года",
+      desc: "Каждый сезон уникален по своему, и мы с вами поймаем красоту природы в любое время",
+      image: "https://sun9-25.userapi.com/impg/Nx_c_CqCux50CTZUk00VxL3Kd20IBzEevEUwEw/P3B4QP3fwHs.jpg?size=1440x2160&quality=95&sign=1c10276d3b93b887cd031845623ae4aa&type=album",
+      image2: "https://sun9-69.userapi.com/impg/Sb8xberZJy0Uo-OZwVst5T9GeAfmpykyX-BOHQ/-y3E_mQQsO4.jpg?size=1440x2160&quality=95&sign=893b3cdb742c25e4f912c7473534a65d&type=album",
+      image3: "https://sun9-19.userapi.com/impg/cFLSk_2d3JHHfnh2V_oCcky2dXuxzjVMRh_afg/qhYpqcNeD18.jpg?size=1440x2160&quality=95&sign=e2c31837d20f8391529525519645681e&type=album",
+      album: "https://vk.com/album-212827676_285959323",
+      width: 200,
+      height: 300,
+    },
+    {
+      id: 3,
+      title: "Уехать за город",
+      desc: "Меня можно взять с собой на природу, а если хотите и не знаете куда, я покажу вам все красоты Самарской области",
+      image: "https://sun9-42.userapi.com/impg/6lDahug0FKTrJnbgz5t_McMw3YalgUzin5ijCA/2_xKcUoXSmk.jpg?size=1440x2160&quality=95&sign=6e6e2605b68aa8c86e1c357f15fedefe&type=album",
+      image2: "https://sun9-43.userapi.com/impg/iHN3hvHSK6g-2AWbRBayzM138k4l21tMhMxwOw/cDaWNg5bEXc.jpg?size=1440x2160&quality=95&sign=cf8e8813616e482690c467f13d234539&type=album",
+      image3: "https://sun9-68.userapi.com/impg/VpSKYETYc7Mv1JAI4RLwmiaTmT73YHefgDJ6KQ/VGDuoZF3v_o.jpg?size=1440x2160&quality=95&sign=2d6003b757846a7a33fd6739ce1e9cee&type=album",
+      album: "https://vk.com/foto_samara_boris",
+      width: 200,
+      height: 300,
+
+    }
+  ],
+
+  wedding: [
+    {
+      id: 1,
+      title: "Роспись и студийная Love Story",
+      desc: "Сделать нежные фотокарточки на память о важном событии семьи",
+      image: "https://sun9-47.userapi.com/impg/pK67sbaZdgOdr6uOodwbKn1eUhz9srT5pRaAIQ/Mae43Ib52Yw.jpg?size=1440x2160&quality=95&sign=3f66c69a580af1d90da732e8feb6c067&type=album",
+      image2: "https://sun9-44.userapi.com/impg/Kn2cE3CrZEAmCFaL2l8GzzRHsKJM4PkjXiaKcA/zXIY77iGz3s.jpg?size=1440x2160&quality=95&sign=6e590b1efe240724f803002071d3fb4e&type=album",
+      image3: "https://sun9-8.userapi.com/impg/7y44PXZxyc9L4k0h_xTGJK1VbM6O3mknpXXBTQ/_RXmriUBQcA.jpg?size=1440x2160&quality=95&sign=c7158e60d8e860fc236e0f973aa2a108&type=album",
+      album: "https://vk.com/foto_samara_boris",
+      width: 200,
+      height: 300,
+    },
+    {
+      id: 2,
+      title: "Утро невесты",
+      desc: "Запечатлеть волнительное и долгожданное утро каждой девушки",
+      image: "https://sun9-3.userapi.com/impg/OnQS5emfDTtLkNnjOxe_nMTO38ytuPTWauvMuA/aUqkcWm8s74.jpg?size=1440x2160&quality=95&sign=d406369ac89795373896671da353f3ef&type=album",
+      image2: "https://sun9-32.userapi.com/impg/Q-VPmC40P2OQh2ZrqDWC4DfiktoCPiZnmC-XgA/BV2MdYlRCnA.jpg?size=1440x2160&quality=95&sign=205f670bc03ceb08e24eee837c2e4756&type=album",
+      image3: "https://sun9-13.userapi.com/impg/QwCbsmN3JfTurT-kYLMBi-NPb5ibg_YaM8qqeg/8x4e3Rgek6g.jpg?size=1440x2160&quality=95&sign=ccc53e3db7b452b2517be8e34580a52e&type=album",
+      album: "https://vk.com/foto_samara_boris",
+      width: 200,
+      height: 300,
+    },
+  ],
+  kids: [
+    {
+      id: 1,
+      title: "Запечатлеть важные моменты",
+      desc: "Детские праздники, прогулка семьей и просто портреты на память о самом прекрасном времени",
+      image: "https://sun9-75.userapi.com/impg/ElgjptW2NLcBye_8gLjyojdTzcKseloY-JdpMA/PB5DtKeEj4A.jpg?size=1280x1920&quality=95&sign=254cd87e678a7c306f41acb4a3d5d16d&type=album",
+      image2: "https://sun9-80.userapi.com/impg/nMXyNqROZD4myxstlCjFmlccPCZN4brNfCZrWw/YNTHlz3Z6lY.jpg?size=1280x1920&quality=95&sign=6572a6507448d7b188b1a9b3675934d2&type=album",
+      image3: "https://sun9-44.userapi.com/impg/K0RN5w5PZXXmCGaV5M2tjD-ETOc4eMdScD0zrw/eZq4lY7gZRA.jpg?size=1280x1920&quality=95&sign=aa847a3e975650a30fba7e005efac19b&type=album",
+      album: "https://vk.com/foto_samara_boris?w=wall-212827676_17",
+      width: 200,
+      height: 300,
+    },
+    {
+      id: 2,
+      title: "Достижения",
+      desc: "Запечатлеть спортивные, творческие и музыкальные достижения",
+      image: "https://sun9-7.userapi.com/impg/NJ5YoHnqw_k7gYk7hKP41BmZD0zA57a89g1R2g/Ka_IvyGgBwM.jpg?size=1440x2160&quality=95&sign=47405ef9b140fcf13eba8f42dfa7f020&type=album",
+      image2: "https://sun9-35.userapi.com/impg/bRJrzGebf2i6CqrUk0IPxVUBWz63vRwJqVTWuw/OsJtD2AyiYI.jpg?size=1440x2160&quality=95&sign=00f784281275f537cef93b117773c1c5&type=album",
+      image3: "https://sun9-74.userapi.com/impg/nCIRVCcXMyLw-DWAfNDPCVMpGiqCQc3RjCyEmA/VyyVAMsNMd0.jpg?size=1440x2160&quality=95&sign=8d4fdd848f47bf55b5aa42d56b916e19&type=album",
+      album: "https://vk.com/foto_samara_boris?w=wall-212827676_22",
+      width: 200,
+      height: 300,
+    },
+  ],
+};
