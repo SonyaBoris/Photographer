@@ -12,7 +12,7 @@ export default function Home() {
           Приветствую! Меня зовут София, я самарский фотограф.
           С радостью проведу для Вас съемку разной тематики
         </p>
-        <Button url="/portfolio" text="Посмотреть работы" />
+        <Button className={styles.button} url="/portfolio" text="Посмотреть работы" />
       </div>
       <div className={styles.item}>
         <div className={styles.img}>

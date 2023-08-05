@@ -49,3 +49,18 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+@media(max-width:1050px){
+  .item{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .item:nth-child(2n+1){
+    flex-direction: column;
+  }
+}
+@media(max-width:700px){
+  .img{
+    width: 30vw;
+  }
+}

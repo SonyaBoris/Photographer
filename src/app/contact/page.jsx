@@ -15,7 +15,7 @@ const Contact = () => {
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <div>
-            <h2>Вы можете связаться со мной любым удобным для вас способом</h2>
+            <h2 className={styles.desc}>Вы можете связаться со мной любым удобным для вас способом</h2>
             <Image className={styles.image} src="/fon.jpg" width={909} height={303} />
 
           </div>

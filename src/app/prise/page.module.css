@@ -19,7 +19,7 @@
   
 .imgText { 
   width: 600px;
-  margin-top: 230px;     
+  margin-top: 200px;     
   color: #fff;
   background-color: #FBCA1F;
   padding: 5px;
@@ -49,4 +49,35 @@
    display: flex;
    flex-direction: column;
   align-items: center;
+  }
+  @media (max-width: 1200px) {
+    .title{
+      font-size: 28px;
+    }    
+  }
+  @media (max-width: 960px){
+    .textContainer{
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  @media (max-width: 660px){
+    .imgText{
+      width: 500px;
+      margin-top: 0;
+    }
+    .imgDesc{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 560px){
+    .imgText{
+      width: 300px;
+    }
+    .title{
+      font-size: 20px;
+    } 
+    .desc{
+      font-size: 16px;
+    }
   }

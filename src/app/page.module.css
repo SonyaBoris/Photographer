@@ -165,3 +165,23 @@
   font-size: 24px;
   font-weight: 300;
 }
+
+@media(max-width: 1024px){
+  .title{
+    font-size: 50px;
+  }
+  .desc{
+    font-size: 20px;
+  }
+}
+@media(max-width: 810px){
+  .img{
+    display: none;
+  }
+  .container{
+   flex-direction: column;
+  }
+  .item {
+    align-items: center;
+  }
+}
