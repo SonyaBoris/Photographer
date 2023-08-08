@@ -17,7 +17,6 @@
   font-size: 72px;    
 }
 
-
 .desc {
   font-size: 24px;
   font-weight: 300;
@@ -33,13 +32,10 @@
 }
 @media(max-width: 810px){
   .container{
-   flex-direction: column;
+    flex-direction: column;
   }
   .item {
     align-items: center;
     width: 100%;
-  }
-  .imageContainer{
-    display: none;
-  }
+  }  
 }

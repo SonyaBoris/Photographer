@@ -1,6 +1,6 @@
-import React from 'react'
-import './burger.css';
+import React from 'react';
 
+import './burger.css';
 
 const Burger = ({ menu, setActive }) => {
   return (

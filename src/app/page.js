@@ -1,6 +1,6 @@
-import styles from './page.module.css'
-import Button from '@/components/Button/Button'
+import Button from '@/components/button/Button';
 
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -13,9 +13,8 @@ export default function Home() {
           Приветствую! Меня зовут София, я самарский фотограф.
           С радостью проведу для Вас съемку разной тематики
         </p>
-        <Button className={styles.button} url="/portfolio" text="Посмотреть работы" />
+        <Button url="/portfolio" text="Посмотреть работы" />
       </div>
-     
     </main>
   )
 }

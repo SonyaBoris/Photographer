@@ -1,6 +1,7 @@
-import Link from 'next/link'
-import styles from './page.module.css'
-import Button from '@/components/Button/Button'
+import Link from 'next/link';
+import Button from '@/components/button/Button';
+
+import styles from './page.module.css';
 
 const Portfolio = () => {
   return (
@@ -24,7 +25,6 @@ const Portfolio = () => {
       <div className={styles.btn}>
         <Button url="/contact" text="Запиcаться на съемку" />
       </div>
-
     </div>
   )
 }

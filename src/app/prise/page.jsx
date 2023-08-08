@@ -1,12 +1,18 @@
-import Button from "@/components/Button/Button";
-import styles from "./page.module.css";
+import Button from "@/components/button/Button";
 import Image from "next/image";
+
+import styles from "./page.module.css";
+
+const arrayCostInclude = ['Помощь в организации фотосессии', 'Подборка референсов', 'Выбор образа',
+  'Поиск и выбор места проведения фотосессии', 'Цветокоррекция и обработка сделанных фотографий', 'Помощь в позировании']
+
+const arrayDont = ['Оплата студии', 'Аренда реквизита', 'Изменения в обработке фотографий']
 
 const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
-        <Image src="/fon.jpg" width={909} height={303} />
+        <Image src="/fon.jpg" width={909} height={303} alt="фоновое изображение" />
       </div>
       <div className={styles.imgText}>
         <h1 className={styles.imgTitle}>Прайс</h1>
@@ -15,21 +21,14 @@ const About = () => {
       <div className={styles.textContainer}>
         <div className={styles.item}>
           <ul className={styles.title}>Что входит в стоимость?
-            <li className={styles.desc}>Помощь в организации фотосессии</li>
-            <li className={styles.desc}>Подборка референсов</li>
-            <li className={styles.desc}>Выбор образа</li>
-            <li className={styles.desc}>Поиск и выбор места проведения фотосессии</li>
-            <li className={styles.desc}>Цветокоррекция и обработка сделанных фотографий</li>
-            <li className={styles.desc}>Помощь в позировании</li>
+            {arrayCostInclude.map((title, index) =>
+              <li key={index} className={styles.desc}>{title}</li>)}
           </ul>
         </div>
-
         <div className={styles.item}>
-          <div className={styles.title}>Что не входит в стоимость?</div>
-          <ul>
-            <li className={styles.desc}>Оплата студии</li>
-            <li className={styles.desc}>Аренда реквизита</li>
-            <li className={styles.desc}>Изменения в обработке фотографий</li>
+          <ul className={styles.title}>Что не входит в стоимость?
+            {arrayDont.map((title, index) =>
+              <li key={index} className={styles.desc}>{title}</li>)}
           </ul>
         </div>
       </div>

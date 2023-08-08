@@ -1,8 +1,9 @@
-import Image from 'next/image'
-import styles from './page.module.css'
-import Button from '@/components/Button/Button'
-import { items } from './data'
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
+import { items } from './data';
+import Button from '@/components/button/Button';
+
+import styles from './page.module.css';
 
 const getData = (cat) => {
   const data = items[cat]

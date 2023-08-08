@@ -1,12 +1,12 @@
 "use client"
 
-import Link from "next/link"
-import styles from "./page.module.css";
-import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
-import Burger from "../Burger/burger";
-import MenuByBurger from "../MenuByBurger/MenuByBurger";
 import { useState } from "react"
+import Link from "next/link"
+import DarkModeToggle from "../darkModeToggle/DarkModeToggle";
+import Burger from "../burger/Burger";
+import MenuByBurger from "../menuByBurger/MenuByBurger";
 
+import styles from "./page.module.css";
 
 const links = [
   {
@@ -35,7 +35,7 @@ const links = [
 const Navbar = () => {
   const [menuActive, setMenuActive] = useState(false)
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <Link href='/' className={styles.logo}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -53,10 +53,10 @@ const Navbar = () => {
             <Link key={link.id} href={link.url}>{link.title}</Link>
           ))}
         </nav>
-        <Burger menu={menuActive} setActive={setMenuActive}/> 
-        <MenuByBurger active={menuActive} />       
+        <Burger menu={menuActive} setActive={setMenuActive} />
+        <MenuByBurger active={menuActive} />
       </div>
-    </div>
+    </header>
   )
 }
 
