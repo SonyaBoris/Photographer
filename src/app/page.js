@@ -1,6 +1,6 @@
 import styles from './page.module.css'
 import Button from '@/components/Button/Button'
-import ImgStar from './../components/StarImg/StarImg'
+
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         </p>
         <Button className={styles.button} url="/portfolio" text="Посмотреть работы" />
       </div>
-      <ImgStar />
+     
     </main>
   )
 }

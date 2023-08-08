@@ -52,9 +52,3 @@ a {
 
   }  
 }
-@media(max-width:400px){
-  .container{
-   padding:0 10px; 
-   gap: 10px;
-  }  
-}

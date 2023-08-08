@@ -4,6 +4,8 @@ import Link from "next/link"
 import styles from "./page.module.css";
 import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 import Burger from "../Burger/burger";
+import MenuByBurger from "../MenuByBurger/MenuByBurger";
+import { useState } from "react"
 
 
 const links = [
@@ -31,6 +33,7 @@ const links = [
 ];
 
 const Navbar = () => {
+  const [menuActive, setMenuActive] = useState(false)
   return (
     <div className={styles.container}>
       <Link href='/' className={styles.logo}>
@@ -50,7 +53,8 @@ const Navbar = () => {
             <Link key={link.id} href={link.url}>{link.title}</Link>
           ))}
         </nav>
-        <Burger />       
+        <Burger menu={menuActive} setActive={setMenuActive}/> 
+        <MenuByBurger active={menuActive} />       
       </div>
     </div>
   )

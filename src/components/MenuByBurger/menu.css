@@ -1,0 +1,31 @@
+.menu{
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 50%;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 15;
+  overflow-y: auto;
+  padding: 50px 40px;
+  background-color: #FBCA1F;
+  border: 2px solid #000;
+  transform: translateX(-100%);
+  transition: transform ease-in-out 1s;
+  color: #000;
+  gap: 5vh;
+
+}
+.menu.active{
+  transform: translateX(0%);
+}
+
+@media (max-width: 810px){
+  .menu{
+    display: flex;
+  }
+}
