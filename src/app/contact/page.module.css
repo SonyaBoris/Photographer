@@ -81,6 +81,9 @@
   .title{
     font-size: 30px;
   }
+  .image{
+    display: none;
+  }
 }
 @media (max-width:490px){
   .form{

@@ -14,16 +14,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    
     <html lang="ru">
       <body className={inter.className}>
         <ThemeProvider>
           <div className="container">
             <Navbar />
             {children}
-            {/* <Footer /> */}
+            <Footer />
           </div>
         </ThemeProvider>
-      </body>
+      </body>      
     </html>
   );
 }
