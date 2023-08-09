@@ -11,14 +11,12 @@ export const metadata = {
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <h1 className={styles.title}>Здесь вы можете записаться на съемку</h1>
       <div className={styles.content}>
-        <div className={styles.leftContainer}>
-          <div>
+        <div className={styles.leftContainer}>        
             <h2 className={styles.desc}>Вы можете связаться со мной любым удобным для вас способом</h2>
-            <StarImg />
-          </div>
+            <StarImg />          
         </div>
         <form className={styles.form}>
           <input type="text" placeholder="имя" className={styles.input} />
@@ -50,7 +48,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-    </div>
+    </main>
   );
 };
 

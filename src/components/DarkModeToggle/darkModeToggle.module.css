@@ -1,13 +1,13 @@
 .container{
-  width: 42px;
-  height: 24px;
-  border: 1.5px solid #000;
-  border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2px;
   position: relative;
+  padding: 2px;
+  width: 42px;
+  height: 24px;
+  border: 1.5px solid #000;
+  border-radius: 30px;    
   cursor: pointer;
 }
 
@@ -16,9 +16,9 @@
 }
 
 .ball{
+  position: absolute;
   width: 15px;
   height: 15px;
   background-color: #FBCA1F;
-  border-radius: 50%;
-  position: absolute;
+  border-radius: 50%;  
 }

@@ -1,9 +1,9 @@
-.container {
-  background: #FBCA1F;
-  font-family: inherit;
+.container {  
   padding: 0.6em 1.3em;
+  font-family: inherit;  
   font-weight: 900;
   font-size: 18px;
+  background: #FBCA1F;
   border: 3px solid black;
   border-radius: 0.4em;
   box-shadow: 0.1em 0.1em;

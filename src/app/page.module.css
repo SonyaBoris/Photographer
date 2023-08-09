@@ -1,9 +1,8 @@
 .container {
   display: flex;
   align-items: center;
-  min-height: 65vh;
   gap: 10px;
-  
+  min-height: 65vh;   
 }
 
 .item {

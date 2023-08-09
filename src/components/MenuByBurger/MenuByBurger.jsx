@@ -28,14 +28,12 @@ const links = [
 ];
 
 const MenuByBurger = ({active}) => {
-  return (
-    <nav>
-      <div className={active ? 'menu active' : 'menu'}>
+  return (   
+      <nav className={active ? 'menu active' : 'menu'}>
         {links.map((link) => (
           <Link key={link.id} href={link.url}>{link.title}</Link>
         ))}
-      </div>
-    </nav>
+      </nav>   
   );
 }
 

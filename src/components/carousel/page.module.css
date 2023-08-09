@@ -1,0 +1,10 @@
+.container{
+  margin-left: 10vw;
+  width: 400px;
+}
+
+@media(max-width: 810px){
+  .container{
+    display: none;
+  }
+}

@@ -19,8 +19,7 @@ const Category = ({ params }) => {
 
   const data = getData(params.category)
   return (
-    <div className={styles.container}>
-      <h1 className={styles.catTitle}>{params.category}</h1>
+    <main className={styles.container}>
       {data.map((item) => (
         <div className={styles.item} key={item.id}>
           <div className={styles.content}>
@@ -56,7 +55,7 @@ const Category = ({ params }) => {
       <div className={styles.btn}>
         <Button text="Смотреть еще" url="/portfolio" />
       </div>
-    </div>
+    </main>
   )
 }
 

@@ -1,12 +1,7 @@
-.catTitle {
-  color: #000;
-}
-
 .item{
   display: flex;
-  gap: 10px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  gap: 15px;
+  margin-bottom: 50px;
 }
 
 .item:nth-child(2n+1){
@@ -18,8 +13,8 @@
   align-items: center;
   gap: 3px;
   flex:1;
-  height: 400px;
   position: relative;
+  height: 400px;  
 }
 
 .img{  
@@ -58,6 +53,6 @@
 }
 @media(max-width:700px){
   .img{
-    width: 30vw;
+    width: 27vw;
   }
 }

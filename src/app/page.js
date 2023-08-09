@@ -1,6 +1,8 @@
 import Button from '@/components/button/Button';
+import Carousel from '@/components/carousel/Carousel';
 
 import styles from './page.module.css';
+
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
         </p>
         <Button url="/portfolio" text="Посмотреть работы" />
       </div>
+      <Carousel />
     </main>
   )
 }

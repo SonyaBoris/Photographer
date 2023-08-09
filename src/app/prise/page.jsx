@@ -10,13 +10,13 @@ const arrayDont = ['Оплата студии', 'Аренда реквизита
 
 const About = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.imgContainer}>
+    <main className={styles.container}>
+      <div className={styles.img}>
         <Image src="/fon.jpg" width={909} height={303} alt="фоновое изображение" />
       </div>
-      <div className={styles.imgText}>
-        <h1 className={styles.imgTitle}>Прайс</h1>
-        <h2 className={styles.imgDesc}>Стоимость 1 часа съемки - 4000 рублей</h2>
+      <div className={styles.mainText}>
+        <h1>Прайс</h1>
+        <h2 className={styles.price}>Стоимость 1 часа съемки - 4000 рублей</h2>
       </div>
       <div className={styles.textContainer}>
         <div className={styles.item}>
@@ -35,7 +35,7 @@ const About = () => {
       <div className={styles.btn}>
         <Button url="/contact" text="Записаться" />
       </div>
-    </div>
+    </main>
   );
 };
 

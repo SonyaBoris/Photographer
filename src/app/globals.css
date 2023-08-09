@@ -29,12 +29,12 @@ a {
 }
 
 .container {  
-  max-width: 1366px; 
-  min-height: 100vh; 
-  margin: 0 auto;
-  padding: 0 60px;
   display: flex;
-  flex-direction: column;   
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 60px; 
+  max-width: 1366px; 
+  min-height: 100vh;   
 }
 
 @media(max-width:1140px){
@@ -45,6 +45,6 @@ a {
 
 @media(max-width:810px){
   .container{
-   padding:0 40px;  
+   padding:0 20px;  
   }  
 }
